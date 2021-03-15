@@ -5,14 +5,16 @@
 * Design: SVG logos
 
 ## Content Ideas
-* 
-
+* [E-cart NPM](https://www.npmjs.com/package/checkout.js)
+* [Abante Cart API](https://www.abantecart.com/)
+* [Building a shopping cart tutorial](https://gabrieleromanato.name/nodejs-how-to-create-an-e-commerce-shopping-cart)
 ## Pages
 * About Us - Team Members
 * 
 
 ## Technologies
 * EJS
+
 
 ## Tasks
 * Backend setup
