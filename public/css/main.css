@@ -1,0 +1,22 @@
+/* ******** */
+/* Defaults */
+/* ******** */
+:root {
+
+/* Colors*/
+--black: hsl()
+--green: hsl()
+--purple: hsl()
+--white: hsl()
+--grey: hsl()
+}
+
+/* Interaction */
+--interaction-curve: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 10);
+
+ /* shadows TODO: Change colors */
+  --inactive-shadow: 0 3px 5px hsla(209, 10%, 12%, 0.12), 0 1px 2px hsla(209, 10%, 12%, 0.24);
+  --hover-shadow: 0 14px 25px hsla(209, 10%, 12%, 0.24), 0 10px 10px hsla(209, 10%, 12%, 0.24);
+  --active-shadow: 0 14px 25px hsla(209, 20%, 28%, 0.24), 0 10px 10px hsla(0, 2%, 28%, 0.24);
+}
+
