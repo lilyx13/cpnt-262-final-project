@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "cpnt262-FINAL",
+  "description": "Code Busters Team Project",
+  "version": "1.0.0",
+  "main": "config.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashlyn-knox/cpnt-262-final-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashlyn-knox/cpnt-262-final-project/issues"
+  },
+  "homepage": "https://github.com/ashlyn-knox/cpnt-262-final-project#readme"
+}
