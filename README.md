@@ -1,9 +1,10 @@
 # cpnt-262-final-project
 Code Busters Team Project
+# Members
+joe ash isha
+# Attributions
 
-## Attributions
-
-### Images
+## Images
 
 - All Images provided by [Unsplash](https://unsplash.com/)
 
