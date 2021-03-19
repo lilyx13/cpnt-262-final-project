@@ -2,17 +2,46 @@
   <head>
   </head>
   <body>
-    <nav>
+    <div class="site-wrapper">
+    <nav class="site-nav">
       <%- include('./partials/nav') %>
     </nav>
-  <header>
+    <!--TODO: create a 'normal-header' class to reformat same content on other pages-->
+  <header class="hero-header">
+    <!--TODO: Hero call to action - take user to the store, or make that the first and easiest thing to do-->
     <%- include('./partials/header') %>
   </header>
-  <main class="container">
+  <main class="main-wrapper">
+    <article class="text-container">
+      <h2>Down to Eart Connoisseurs of Herb</h2>
+      <p>Chat with the staff at heyBUD about your marijuana needs</p>
+      <!--TODO: Insert image of people conversing happily-->
+      <img src="#"></img>
+      <!--TODO: Link to contact page? Not sure about this here tho-->
+      <button>Contact us</button>
+    </article>
+    <!--Two colums so image is parallel to text-->
+    <section class="split-container">
+      <div class=split-left>
+      </div>
+      <article class="split-right">
+        <h2>Benefits of Marijuana</h2>
+        <p>Marijuana has proven benefits to your health</p>
+        <ul>
+          <li>Anti-Anxiety</li>
+          <li>Treat Depression</li>
+          <li>PTSD alleviation</li>
+        </ul>
+      </article>
+    </section>
+    <!--TODO: small basic gallery here, promo images and weed images-->
+    <section class="promo-gallery-container">
+    </section>
   </main>
-  <footer>
+  <footer class="footer-wrapper">
     <%- include('./partials/footer') %>
- </footer>
+  </footer>
+    </div>
   </body>
 </html>
 
