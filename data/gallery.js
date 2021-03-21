@@ -1,8 +1,8 @@
 const gallery = [
   {
     id: 0,
-    title: 'hybrid1',
-    description: 'hybrid',
+    title: 'Covid Kush',
+    description: 'Chrystally orange hairy goodness',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/hybrid1.jpg',
@@ -12,8 +12,8 @@ const gallery = [
   },
   {
     id: 1,
-    title: 'hybrid2',
-    description: 'hybrid',
+    title: 'Northern Lights',
+    description: 'Long Orange Hairs',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/hybrid2.jpg',
@@ -23,8 +23,8 @@ const gallery = [
   },
   {
     id: 2,
-    title: 'hybrid3',
-    description: 'hybrid',
+    title: 'Pineapple Express',
+    description: 'Super Dense Green Nug',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/hybrid3.jpg',
@@ -34,8 +34,8 @@ const gallery = [
   },
   {
     id: 3,
-    title: 'hybrid4',
-    description: 'hybrid',
+    title: 'Maui Wowie',
+    description: 'Couple Grams of Dank',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/hybrid4.jpg',
@@ -45,8 +45,8 @@ const gallery = [
   },
   {
     id: 4,
-    title: 'indica1',
-    description: 'indica',
+    title: 'Lemon Haze',
+    description: 'Few Super Juicy Chrystally Nugzzz',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/indica1.jpg',
@@ -56,8 +56,8 @@ const gallery = [
   },
   {
     id: 5,
-    title: 'indica2',
-    description: 'indica',
+    title: 'Sour Tangie',
+    description: 'Red Hairzz',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/indica2.jpg',
@@ -67,8 +67,8 @@ const gallery = [
   },
   {
     id: 6,
-    title: 'indica3',
-    description: 'indica',
+    title: 'Peanut Butter Breathe',
+    description: 'Green Crack',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/indica3.jpg',
@@ -78,8 +78,8 @@ const gallery = [
   },
   {
     id: 7,
-    title: 'indica4',
-    description: 'indica',
+    title: 'LA Confidential',
+    description: 'Container Spillage Of The Herb',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/indica4.jpg',
@@ -89,8 +89,8 @@ const gallery = [
   },
   {
     id: 8,
-    title: 'sativa1',
-    description: 'sativa',
+    title: 'Sour Diesel',
+    description: 'Small Little Cute Nuggy',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/sativa1.jpg',
@@ -100,8 +100,8 @@ const gallery = [
   },
   {
     id: 9,
-    title: 'sativa2',
-    description: 'sativa',
+    title: 'Afghani Kush',
+    description: 'Super Dense Purple Nuggyz',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/sativa2.jpg',
@@ -111,8 +111,8 @@ const gallery = [
   },
   {
     id: 10,
-    title: 'sativa3',
-    description: 'sativa',
+    title: 'Blue Cheese',
+    description: 'Super Green Crack',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/sativa3.jpg',
@@ -123,8 +123,8 @@ const gallery = [
   {
 
     id: 11,
-    title: 'sativa4',
-    description: 'sativa',
+    title: 'Wedding Cake',
+    description: 'Quarter oz',
     height: 500,
     width: 500,
     pathURL: 'images/edited/small/sativa4.jpg',
