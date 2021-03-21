@@ -5,7 +5,7 @@ const app = express()
 app.use(express.static(path.join(__dirname, 'public')))
 
 // Views Engine
-app.set('viewengine', 'ejs')
+app.set('view engine', 'ejs')
 
 // Router for Pages
 
@@ -19,5 +19,5 @@ app.use((req, res) => {
 const PORT = process.env.PORT || 3000
 
 app.listen(PORT, () => {
-  console.log(``)
+  console.log(`Listening on Port ${PORT}`)
 })
