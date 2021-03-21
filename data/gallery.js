@@ -1,7 +1,7 @@
 const gallery = [
   {
     id: 0,
-    title: 'hybrid1',
+    title: 'Covid Kush',
     description: 'Chrystally orange hairy goodness',
     height: 500,
     width: 500,
@@ -12,7 +12,7 @@ const gallery = [
   },
   {
     id: 1,
-    title: 'hybrid2',
+    title: 'Northern Lights',
     description: 'Long Orange Hairs',
     height: 500,
     width: 500,
@@ -23,7 +23,7 @@ const gallery = [
   },
   {
     id: 2,
-    title: 'hybrid3',
+    title: 'Pineapple Express',
     description: 'Super Dense Green Nug',
     height: 500,
     width: 500,
@@ -34,7 +34,7 @@ const gallery = [
   },
   {
     id: 3,
-    title: 'hybrid4',
+    title: 'Maui Wowie',
     description: 'Couple Grams of Dank',
     height: 500,
     width: 500,
@@ -45,7 +45,7 @@ const gallery = [
   },
   {
     id: 4,
-    title: 'indica1',
+    title: 'Lemon Haze',
     description: 'Few Super Juicy Chrystally Nugzzz',
     height: 500,
     width: 500,
@@ -56,7 +56,7 @@ const gallery = [
   },
   {
     id: 5,
-    title: 'indica2',
+    title: 'Sour Tangie',
     description: 'Red Hairzz',
     height: 500,
     width: 500,
@@ -67,7 +67,7 @@ const gallery = [
   },
   {
     id: 6,
-    title: 'indica3',
+    title: 'Peanut Butter Breathe',
     description: 'Green Crack',
     height: 500,
     width: 500,
@@ -78,7 +78,7 @@ const gallery = [
   },
   {
     id: 7,
-    title: 'indica4',
+    title: 'LA Confidential',
     description: 'Container Spillage Of The Herb',
     height: 500,
     width: 500,
@@ -89,7 +89,7 @@ const gallery = [
   },
   {
     id: 8,
-    title: 'sativa1',
+    title: 'Sour Diesel',
     description: 'Small Little Cute Nuggy',
     height: 500,
     width: 500,
@@ -100,7 +100,7 @@ const gallery = [
   },
   {
     id: 9,
-    title: 'sativa2',
+    title: 'Afghani Kush',
     description: 'Super Dense Purple Nuggyz',
     height: 500,
     width: 500,
@@ -111,7 +111,7 @@ const gallery = [
   },
   {
     id: 10,
-    title: 'sativa3',
+    title: 'Blue Cheese',
     description: 'Super Green Crack',
     height: 500,
     width: 500,
@@ -123,7 +123,7 @@ const gallery = [
   {
 
     id: 11,
-    title: 'sativa4',
+    title: 'Wedding Cake',
     description: 'Quarter oz',
     height: 500,
     width: 500,
