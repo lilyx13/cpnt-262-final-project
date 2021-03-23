@@ -4,6 +4,14 @@ Code Busters Team Project
 joe ash isha
 # Attributions
 
+## CSS Notes
+- skel-noscript.css grid layout / Container / Macro Structure
+- style-1000px.css 
+
+
+
+
+
 ## Images
 
 - All Images provided by [Unsplash](https://unsplash.com/)
