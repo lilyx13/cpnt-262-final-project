@@ -8,6 +8,9 @@ joe ash isha
 - skel-noscript.css grid layout / Container / Macro Structure
 - style-1000px.css 
 
+## EJS Notes
+- Only Copyright information currently in the footer.ejs
+- TODO: Brown Section above footer needs to be... addressed. Ugly and probs needs to be destroyed or changed. - Figure out JS situation before doing anything crazy
 
 
 
