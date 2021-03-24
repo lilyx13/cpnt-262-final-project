@@ -1,5 +1,7 @@
 const express = require('express')
 const path = require('path')
+const routes = require('./routes')
+
 const app = express()
 
 app.use(express.static(path.join(__dirname, 'public')))
@@ -8,11 +10,12 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.set('view engine', 'ejs')
 
 // Router for Pages
+app.use('/', routes)
 
 // Error Page
-app.use((req, res) => {
+app.use('/', (req, res) => {
   res.status(404)
-  res.send('404.ejs', '404')
+  res.render('pages/404')
 })
 
 // Listener
