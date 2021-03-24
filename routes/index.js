@@ -14,18 +14,22 @@ router.get('/', (req, res) => {
 })
 
 // about page
-router.get('/', (req, res) => {
-  res.render('pages/about')
+router.get('/about-us', (req, res) => {
+  res.render('pages/about-us')
 })
 
 // store page
-router.get('/', (req, res) => {
-  res.render('pages/store')
+router.get('/shop', (req, res) => {
+  res.render('pages/shop')
 })
 
 // 404
-router.get('/', (req, res) => {
+router.get('/404', (req, res) => {
   res.render('pages/404')
 })
 
+// contact
+router.get('/contact', (req, res) => {
+  res.render('pages/contact')
+})
 module.exports = router
