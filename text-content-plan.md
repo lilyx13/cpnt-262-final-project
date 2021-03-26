@@ -17,8 +17,7 @@
 * text | Image
 * Image | Text
 * Final Note
-* fake signature from the owner?
-
+* fake signature from the owner? - i like this idea.jb
 ### Topics
 * Company origin story
 * Values

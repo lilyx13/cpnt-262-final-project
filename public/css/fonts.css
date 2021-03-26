@@ -1,13 +1,20 @@
 /* Font Type */
-h1, .companyBrand {
+h1,
+.companyBrand {
   font-family: "Hachi Maru Pop", sans-serif;
 }
-h2, h3, h4 {
+
+h2,
+h3,
+h4 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
 }
 
-p, li, a, figcaption {
+p,
+li,
+a,
+figcaption {
   font-family: "Open Sans", sans-serif
 }
 
@@ -15,14 +22,17 @@ p, li, a, figcaption {
 h1 {
   font-size: clamp(3rem, 5vw, 5rem);
 }
+
 h2 {
   font-size: clamp(2.4rem, 5vw, 2.6rem);
 }
+
 h3 {
   font-size: clamp(2rem, 5vw, 2.2rem);
 }
 
-p, a { 
+p,
+a {
   font-size: clamp(1.4rem, 5vw, 1.8rem);
   max-width: 80ch;
 }
