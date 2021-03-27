@@ -303,3 +303,10 @@ h1.heybud {
 	text-decoration: none;
 	color: #df4511 !important;
 }
+
+
+.info-container {
+	display: grid;
+
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
