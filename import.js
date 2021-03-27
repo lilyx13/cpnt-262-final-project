@@ -1,0 +1,1 @@
+const mongoose = require('./_connection');
