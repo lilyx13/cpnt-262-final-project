@@ -27,9 +27,8 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background: #180E0B;
+	background: #cecba0;
 	font-family: 'Raleway', sans-serif;
-
 	color: #000000;
 }
 
@@ -233,7 +232,7 @@ ul.style1 img {
 
 #banner {
 	position: relative;
-	background: rgb(187, 31, 31) url(../images/edited/medium/friends.jpg) no-repeat center;
+	background: rgb(180, 153, 153) url(../images/edited/medium/friends.jpg) no-repeat center;
 	background-size: cover;
 }
 
@@ -245,7 +244,7 @@ ul.style1 img {
 #main {
 	position: relative;
 	padding: 6em 0em;
-	background: #261611;
+	background: #beb7b5;
 	color: #774535;
 }
 
@@ -260,11 +259,15 @@ ul.style1 img {
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
+h1.heybud {
+	font-size: 2rem;
+}
 
 #featured {
 	position: relative;
 	padding: 6em 0em 4em 0em;
 	background: #FFF;
+	font-size: 1rem;
 }
 
 /*********************************************************************************/
@@ -274,12 +277,12 @@ ul.style1 img {
 #marketing {
 	position: relative;
 	padding: 6em 0em;
-	background: #372019;
-	color: #8c5240;
+	background: #d8cdca;
+	color: #110704;
 }
 
 #marketing header h2 {
-	color: #c0745d;
+	color: #130602;
 }
 
 /*********************************************************************************/
@@ -290,7 +293,7 @@ ul.style1 img {
 	position: relative;
 	padding: 3em 0em;
 	text-align: center;
-	color: #774535;
+	color: #362f2d;
 }
 
 #copyright .container {}
