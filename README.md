@@ -62,3 +62,20 @@ joe ash isha
 - [Friends Smoking](https://unsplash.com/photos/I0kDaLrTiuI) image belongs to Artem Bryzgalov
 
 - [fake joe](https://unsplash.com/photos/7B4zs9M8rYI) Image belongs to Brian Lundquist
+
+- [coral reef kush](https://unsplash.com/photos/KJbK6WqpGd4) Images belong to https://unsplash.com/@cjenkinsiv
+
+- [brown weed in jar](https://unsplash.com/photos/1DsUp8GcyT8) Images Belong To https://unsplash.com/@cjenkinsiv
+
+- [Grinder](https://unsplash.com/photos/MC8Jv961TB4) images belong to https://unsplash.com/@exxteban
+
+- [show case](https://unsplash.com/photos/zKjnvjKdQQM) image belongs to Photo by https://unsplash.com/@budding
+  
+- [rig](https://unsplash.com/photos/jVisH3WX4ME) image belongs to https://unsplash.com/@grav
+
+- [sunflower girl](https://unsplash.com/photos/4FOQ-3P6Up0) image belongs to https://unsplash.com/@grav
+
+- [cookie](https://unsplash.com/photos/bc9DFiU7b00) image belongs to https://unsplash.com/@urban_farmacy
+
+
+
