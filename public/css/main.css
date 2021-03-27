@@ -303,13 +303,10 @@ h1.heybud {
 	text-decoration: none;
 	color: #df4511 !important;
 }
-<<<<<<< HEAD
-
 
 .info-container {
 	display: grid;
 
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-=======
->>>>>>> d05d0e4 (contact page edit)
+
