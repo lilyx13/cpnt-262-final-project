@@ -134,7 +134,7 @@ ul.style a {}
 
 /* home page- indica&sativa favs */
 ul.style1 {
-	color: #c98a77 !important;
+	color: #2d0ce9 !important;
 }
 
 ul.style1 li {
@@ -144,7 +144,7 @@ ul.style1 li {
 ul.style1 li:first-child {}
 
 ul.style1 a {
-	color: #e9b7a6 !important;
+	color: #e013cf !important;
 }
 
 ul.style1 img {
@@ -176,7 +176,7 @@ ul.style1 img {
 }
 
 #logo h1 {
-	color: #FFF;
+	color: rgb(238, 17, 17);
 }
 
 #logo a {
@@ -184,7 +184,7 @@ ul.style1 img {
 	text-decoration: none;
 	font-size: 2.8em;
 	font-weight: 600;
-	color: #FFF;
+	color: rgb(226, 10, 10);
 }
 
 /*********************************************************************************/
@@ -230,7 +230,7 @@ ul.style1 img {
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
-
+/* top of page banner for all */
 #banner {
 	position: relative;
 	background: rgb(180, 153, 153) url(../images/edited/medium/friends.jpg) no-repeat center;
@@ -245,16 +245,16 @@ ul.style1 img {
 #main {
 	position: relative;
 	padding: 6em 0em;
-	background: #beb7b5;
-	color: #774535;
+	background: #bebeb5;
+	color: #12112c;
 }
 
 #main header h2 {
-	color: #bc765f;
+	color: #0b0744;
 }
 
 #main a {
-	color: #bc765f;
+	color: #2e3a55;
 }
 
 /*********************************************************************************/
@@ -301,5 +301,5 @@ h1.heybud {
 
 #copyright a {
 	text-decoration: none;
-	color: #774535 !important;
+	color: #df4511 !important;
 }
