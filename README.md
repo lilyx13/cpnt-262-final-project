@@ -3,6 +3,7 @@ Code Busters Team Project
 # Members
 - [Joseph Butcher](https://github.com/JoeButchxxx)
 - [Ashlyn Knox](https://github.com/ashlyn-knox)
+- isha
 # Attributions
 
 ## CSS Notes
