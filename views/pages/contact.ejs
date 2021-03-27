@@ -1,133 +1,151 @@
 <!DOCTYPE HTML>
 <!--
 	Autonomy by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
 
-<head>
-	<%- include('../partials/head')%>
+	<head>
+		<%- include('../partials/head')%>
 
-<body>
+		<body>
 
-	<!-- Header -->
-	<%- include('../partials/header')%>
-		<div id="featured">
-			<div class="container">
-				<div class="row">
-					<div class="9u">
-						<section>
-							<h1>Contact Us</h1>
-							<p>We are always ready to help our clients out. Give us a call or come by the shop anytime during business hours.</p>
-						</section>
+			<!-- Header -->
+			<%- include('../partials/header')%>
+			<div id="featured">
+				<div class="container">
+					<div class="row">
+						<div class="9u">
 							<section>
-							<h2>Contact Us</h2>
+								<h1>Contact Us</h1>
+								<p>We are always ready to help our clients out. Give us a call or come by the shop anytime during business hours.</p>
+							</section>
+							<section>
+								<h2>Smoker's Survey</h2>
+								<p>Take a minute to fill out our survey and receive a gift. We have a variety of products that we are giving away, you may get a pack of papers, and you just may get a brand new bong!</p>
+								<!--Personal Information -->
+								<form action="" method="post">
+									<label for="name">Name: </label>
+									<input type="text" name="name" id="user-name" placeholder="Enter your name here" required>
+									<label for="email">Email: </label>
+									<input type="email" name="email" id="user-email" placeholder="Enter your email here" required>
 
-							<form action="" method="post">
-								<label for="name">Name: </label>
-								<input type="text" name="name" id="user-name" placeholder="Enter your name here" required>
-								<label for="email">Email: </label>
-								<input type="email" name="email" id="user-email" placeholder="Enter your email here" required>
-								<label for="consumption-styles">Preferred Use</label>
-								<!--TODO Add client side JS to force at least 3 choices-->
-								<fieldset>
-									<legend>Choose your top 3 preferred ways to get high</legend>
-									<input type="checkbox" name="consumption-styles" id="joints" value="Joints">
-									<input type="checkbox" name="consumption-styles" id="vaping" value="Vaping">
-									<input type="checkbox" name="consumption-styles" id="bongs" value="Bongs">
-									<input type="checkbox" name="consumption-styles" id="pipe" value="Pipe">
-									<input type="checkbox" name="consumption-styles" id="eadibles" value="Eadibles">
-									<input type="checkbox" name="consumption-styles" id="beverages" value="Beverages">
-									<input type="checkbox" name="consumption-styles" id="drops" value="Oil Drops">
-									<input type="checkbox" name="consumption-styles" id="spray" value="Spray">
+									<!-- Consumption Info -->
+									<!--TODO Add client side JS to force at least 3 choices-->
+									<fieldset>
+										<legend>Choose your top 3 preferred ways to get high</legend>
+										<input type="checkbox" name="consumption-styles" id="joints" value="Joints">
+										<input type="checkbox" name="consumption-styles" id="vaping" value="Vaping">
+										<input type="checkbox" name="consumption-styles" id="bongs" value="Bongs">
+										<input type="checkbox" name="consumption-styles" id="pipe" value="Pipe">
+										<input type="checkbox" name="consumption-styles" id="eadibles" value="Eadibles">
+										<input type="checkbox" name="consumption-styles" id="beverages" value="Beverages">
+										<input type="checkbox" name="consumption-styles" id="drops" value="Oil Drops">
+										<input type="checkbox" name="consumption-styles" id="spray" value="Spray">
+									</fieldset>
+									<!-- Use Frequency -->
+									<fieldset>
+										<legend>How often do you use marijuana products</legend>
+										<input type="radio" name="use-frequency" id="daily" value="Daily">
+										<input type="radio" name="use-frequency" id="often" value="Often (A few times a week)">
+										<input type="radio" name="use-frequency" id="casually" value="Every once and a whil (a few times a month)">
+										<input type="radio" name="use-frequency" id="rarely" value="Rarely">
+									</fieldset>
+									<!-- Favourite Type -->
+									<fieldset>
+										<legend>Favourite Type of Herb</legend>
+										<input type="checkbox" name="fav-type" id="sativa" value="Sativa">
+										<input type="checkbox" name="fav-type" id="sativa" value="Indica">
+										<input type="checkbox" name="fav-type" id="sativa" value="Hybrid">
+									</fieldset>
 
-								</fieldset>
-
-								<input type="submit" value="send">
-							</form>
+									<input type="submit" value="send">
+								</form>
+								<!-- Add privacy policy -->
+								<p>All of your information will remain confidential. See our privacy policy</p>
 							</section>
 
-					</div>
-					<div class="3u">
-						<section>
+						</div>
+						<div class="3u">
 							<section>
-								<a href="#" class="image full"><img src="#" alt=""></a>
-								<h2>VIP Club Infomation</h2>
-								<p>With our awesome VIP club you get first hand service on all of our instore deals and special online
-								purchase.</p>
-								<button class="sign-up">Sign Up</button>
-								<button class="log-in">Log In</button>
+								<section>
+									<a href="#" class="image full"><img src="#" alt=""></a>
+									<h2>VIP Club Infomation</h2>
+									<p>With our awesome VIP club you get first hand service on all of our instore deals and special online
+									purchase.</p>
+									<button class="sign-up">Sign Up</button>
+									<button class="log-in">Log In</button>
 
-							</section>
+								</section>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div id="marketing">
-			<div class="container">
-				<div class="row">
-					<div class="6u">
-						<!--For mobile, can we make this clickable so it opens up in your phone and email for email? -->
-						<section>
-							<h2>Our Info</h2>
-							<p>We would love to hear from you</p>
-							<h3>Phone</h3>
-							<a href="tel:893-674-4329">893-674-4329</a>
-							<h3>Email</h3>
-							<a href="manager@heybud.ca">manager@heybud.ca</a>
-							<h3>Address</h3>
-							<p>2334 Rourke Way NW,<br> Calgary, Canada</p>
-						</section>
+			<div id="marketing">
+				<div class="container">
+					<div class="row">
+						<div class="6u">
+							<!--For mobile, can we make this clickable so it opens up in your phone and email for email? -->
+							<section>
+								<h2>Our Info</h2>
+								<p>We would love to hear from you</p>
+								<h3>Phone</h3>
+								<a href="tel:893-674-4329">893-674-4329</a>
+								<h3>Email</h3>
+								<a href="manager@heybud.ca">manager@heybud.ca</a>
+								<h3>Address</h3>
+								<p>2334 Rourke Way NW,<br> Calgary, Canada</p>
+							</section>
 
-						<section>
-							<table>
-								<caption>Business Hours</caption>
-								<tr>
-									<th>Monday</th>
-									<td>10:00am</td>
-									<td>8:00pm</td>
-								</tr>
-								<tr>
-									<th>Tuesday</th>
-									<td>Closed</td>
-									<td>Closed</td>
-								</tr>
-								<tr>
-									<th>Wednesday</th>
-									<td>10:00am</td>
-									<td>8:00pm</td>
-								</tr>
-								<tr>
-									<th>Thursday</th>
-									<td>10:00am</td>
-									<td>10:00pm</td>
-								</tr>
-								<tr>
-									<th>Friday</th>
-									<td>10:00am</td>
-									<td>12:00am</td>
-								</tr>
-								<tr>
-									<th>Saturday</th>
-									<td>10:00am</td>
-									<td>12:00pm</td>
-								</tr>
-								<tr>
-									<th>Sunday</th>
-									<td>10:00am</td>
-									<td>11:00pm</td>
-								</tr>
-							</table>
-						</section>
+							<section>
+								<table>
+									<caption>Business Hours</caption>
+									<tr>
+										<th>Monday</th>
+										<td>10:00am</td>
+										<td>8:00pm</td>
+									</tr>
+									<tr>
+										<th>Tuesday</th>
+										<td>Closed</td>
+										<td>Closed</td>
+									</tr>
+									<tr>
+										<th>Wednesday</th>
+										<td>10:00am</td>
+										<td>8:00pm</td>
+									</tr>
+									<tr>
+										<th>Thursday</th>
+										<td>10:00am</td>
+										<td>10:00pm</td>
+									</tr>
+									<tr>
+										<th>Friday</th>
+										<td>10:00am</td>
+										<td>12:00am</td>
+									</tr>
+									<tr>
+										<th>Saturday</th>
+										<td>10:00am</td>
+										<td>12:00pm</td>
+									</tr>
+									<tr>
+										<th>Sunday</th>
+										<td>10:00am</td>
+										<td>11:00pm</td>
+									</tr>
+								</table>
+							</section>
 
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- Copyright and bottom nav -->
-		<%- include('../partials/footer')%>
+			<!-- Copyright and bottom nav -->
+			<%- include('../partials/footer')%>
 
-</body>
+		</body>
 
 </html>
