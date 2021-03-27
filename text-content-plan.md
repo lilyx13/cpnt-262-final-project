@@ -1,5 +1,58 @@
 # Site Content Plan
 
+## Weekend Plan
+
+### Saturday
+#### Footer (Joe)
+* Move map to Contact
+* Remove some padding
+* Add footer navigation links
+* add contact links in footer
+
+
+#### Nav (Ash)
+* Get links working
+* Colorscheme
+* animation on link hover
+* home link
+* 
+
+#### Contact (Ash)
+* CSS and layout
+* Prep for Post feature stuff
+* Put the contact post area in the bottom shaded area
+
+#### Homepage (Joe)
+* Stylize
+* main body grid
+* content
+
+#### Mongoose Prep (Joe)
+* import script
+* connection
+* model
+* seeds
+
+#### Heroku (Ash)
+* Set up heroku
+* set up atlas - .env
+* code review of mongoose prep stuff
+
+#### Store (1hour fetch or static)
+* Fetch Gallery
+
+### Sunday
+
+#### Post Feature
+* Post enpoint
+* custom message for confirmation
+* No linked admin page that shows post content
+
+#### Store Calculator
+* Add or subtract from total
+* static on shop page
+* 
+
 ## Home
 * Specials
 * intro blurb
@@ -17,7 +70,8 @@
 * text | Image
 * Image | Text
 * Final Note
-* fake signature from the owner? - i like this idea.jb
+* fake signature from the owner?
+
 ### Topics
 * Company origin story
 * Values
