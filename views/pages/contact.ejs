@@ -14,52 +14,79 @@
 			<!-- Header -->
 			<%- include('../partials/header')%>
 			<div id="featured">
-				<div class="container">
-					<div class="row">
-						<div class="9u">
 							<section>
 								<h1>Contact Us</h1>
 								<p>We are always ready to help our clients out. Give us a call or come by the shop anytime during business hours.</p>
 							</section>
+				<div class="container">
+					<div class="row">
+						<div class="9u">
 							<section>
 								<h2>Smoker's Survey</h2>
 								<p>Take a minute to fill out our survey and receive a gift. We have a variety of products that we are giving away, you may get a pack of papers, and you just may get a brand new bong!</p>
 								<!--Personal Information -->
 								<form action="" method="post">
+									<!-- Name-->
 									<label for="name">Name: </label>
 									<input type="text" name="name" id="user-name" placeholder="Enter your name here" required>
+									<!-- Email -->
 									<label for="email">Email: </label>
 									<input type="email" name="email" id="user-email" placeholder="Enter your email here" required>
-
+									<!--Age -->
+									<label for="age">Age Range: </label>
+									<select name="age">
+										<option value="18to24">18 - 24</option>
+										<option value="25to30">25 - 30</option>
+										<option value="31to36">31 - 36</option>
+										<option value="37to45">37 - 45</option>
+										<option value="46to55">46 - 55</option>
+										<option value="56to65">56 - 65<option>
+										<option value="65up">65 and Up<option>
+										</select>
 									<!-- Consumption Info -->
 									<!--TODO Add client side JS to force at least 3 choices-->
 									<fieldset>
 										<legend>Choose your top 3 preferred ways to get high</legend>
+										<label for="joints">Joints</label>
 										<input type="checkbox" name="consumption-styles" id="joints" value="Joints">
+										<label for="vaping">Vaping</label>
 										<input type="checkbox" name="consumption-styles" id="vaping" value="Vaping">
+										<label for="bongs">Bongs</label>
 										<input type="checkbox" name="consumption-styles" id="bongs" value="Bongs">
-										<input type="checkbox" name="consumption-styles" id="pipe" value="Pipe">
+										<label for="pipes">Pipes</label>
+										<input type="checkbox" name="consumption-styles" id="pipes" value="Pipe">
+										<label for="eadibles">Eadibles</label>
 										<input type="checkbox" name="consumption-styles" id="eadibles" value="Eadibles">
+										<label for="beverages">Beverages</label>
 										<input type="checkbox" name="consumption-styles" id="beverages" value="Beverages">
+										<label for="drops">Oil Drops</label>
 										<input type="checkbox" name="consumption-styles" id="drops" value="Oil Drops">
+										<label for="spray">Mouth Spray</label>
 										<input type="checkbox" name="consumption-styles" id="spray" value="Spray">
 									</fieldset>
 									<!-- Use Frequency -->
 									<fieldset>
 										<legend>How often do you use marijuana products</legend>
+										<label for="daily">Daily</label>
 										<input type="radio" name="use-frequency" id="daily" value="Daily">
+										<label for="often">Often (A few times a week)</label>
 										<input type="radio" name="use-frequency" id="often" value="Often (A few times a week)">
+										<label for="casually">Casually (A few times a week)</label>
 										<input type="radio" name="use-frequency" id="casually" value="Every once and a whil (a few times a month)">
+										<label for="rarely">Rarily (Special occasions etc)</label>
 										<input type="radio" name="use-frequency" id="rarely" value="Rarely">
 									</fieldset>
 									<!-- Favourite Type -->
 									<fieldset>
 										<legend>Favourite Type of Herb</legend>
+										<label for="sativa">Sativa</label>
 										<input type="checkbox" name="fav-type" id="sativa" value="Sativa">
-										<input type="checkbox" name="fav-type" id="sativa" value="Indica">
-										<input type="checkbox" name="fav-type" id="sativa" value="Hybrid">
+										<label for="indica">Indica</label>
+										<input type="checkbox" name="fav-type" id="indica" value="Indica">
+										<label for="hybrid">Hybrid</label>
+										<input type="checkbox" name="fav-type" id="hybrid" value="Hybrid">
 									</fieldset>
-
+									<br>
 									<input type="submit" value="send">
 								</form>
 								<!-- Add privacy policy -->
@@ -67,6 +94,10 @@
 							</section>
 
 						</div>
+						<!-- to break things up-->
+						<div class="text-banner">
+							<h3>An glib and meaningles</h3>
+							</>
 						<div class="3u">
 							<section>
 								<section>
