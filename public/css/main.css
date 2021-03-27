@@ -130,11 +130,12 @@ ul.style li {
 
 ul.style li:first-child {}
 
-ul.style a {
-	color: #774535 !important;
-}
+ul.style a {}
 
-ul.style1 {}
+/* home page- indica&sativa favs */
+ul.style1 {
+	color: #c98a77 !important;
+}
 
 ul.style1 li {
 	padding: 0.55em 0em;
@@ -143,7 +144,7 @@ ul.style1 li {
 ul.style1 li:first-child {}
 
 ul.style1 a {
-	color: #774535 !important;
+	color: #e9b7a6 !important;
 }
 
 ul.style1 img {
