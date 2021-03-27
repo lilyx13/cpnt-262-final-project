@@ -1,7 +1,8 @@
 # cpnt-262-final-project
 Code Busters Team Project
 # Members
-joe ash isha
+- [Joseph Butcher](https://github.com/JoeButchxxx)
+- [Ashlyn Knox](https://github.com/ashlyn-knox)
 # Attributions
 
 ## CSS Notes
