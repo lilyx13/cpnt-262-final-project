@@ -29,12 +29,24 @@
 								<input type="text" name="name" id="user-name" placeholder="Enter your name here" required>
 								<label for="email">Email: </label>
 								<input type="email" name="email" id="user-email" placeholder="Enter your email here" required>
-								<label for="user-message">Message: </label>
-								<textarea name="user-message" id="user-message" cols="30" rows="10"
-									placeholder="Let us know how we can help you" max-length="500" required></textarea>
+								<label for="consumption-styles">Preferred Use</label>
+								<!--TODO Add client side JS to force at least 3 choices-->
+								<fieldset>
+									<legend>Choose your top 3 preferred ways to get high</legend>
+									<input type="checkbox" name="consumption-styles" id="joints" value="Joints">
+									<input type="checkbox" name="consumption-styles" id="vaping" value="Vaping">
+									<input type="checkbox" name="consumption-styles" id="bongs" value="Bongs">
+									<input type="checkbox" name="consumption-styles" id="pipe" value="Pipe">
+									<input type="checkbox" name="consumption-styles" id="eadibles" value="Eadibles">
+									<input type="checkbox" name="consumption-styles" id="beverages" value="Beverages">
+									<input type="checkbox" name="consumption-styles" id="drops" value="Oil Drops">
+									<input type="checkbox" name="consumption-styles" id="spray" value="Spray">
+
+								</fieldset>
+
 								<input type="submit" value="send">
 							</form>
-						</section>
+							</section>
 
 					</div>
 					<div class="3u">
@@ -43,7 +55,7 @@
 								<a href="#" class="image full"><img src="#" alt=""></a>
 								<h2>VIP Club Infomation</h2>
 								<p>With our awesome VIP club you get first hand service on all of our instore deals and special online
-									purchase.</p>
+								purchase.</p>
 								<button class="sign-up">Sign Up</button>
 								<button class="log-in">Log In</button>
 
@@ -55,58 +67,58 @@
 		<div id="marketing">
 			<div class="container">
 				<div class="row">
-								<div class="6u">
-							<!--For mobile, can we make this clickable so it opens up in your phone and email for email? -->
-							<section>
-								<h2>Our Info</h2>
-								<p>We would love to hear from you</p>
-								<h3>Phone</h3>
-								<a href="tel:893-674-4329">893-674-4329</a>
-								<h3>Email</h3>
-								<a href="manager@heybud.ca">manager@heybud.ca</a>
-								<h3>Address</h3>
-								<p>2334 Rourke Way NW,<br> Calgary, Canada</p>
-							</section>
+					<div class="6u">
+						<!--For mobile, can we make this clickable so it opens up in your phone and email for email? -->
+						<section>
+							<h2>Our Info</h2>
+							<p>We would love to hear from you</p>
+							<h3>Phone</h3>
+							<a href="tel:893-674-4329">893-674-4329</a>
+							<h3>Email</h3>
+							<a href="manager@heybud.ca">manager@heybud.ca</a>
+							<h3>Address</h3>
+							<p>2334 Rourke Way NW,<br> Calgary, Canada</p>
+						</section>
 
-							<section>
-								<table>
-									<caption>Business Hours</caption>
-									<tr>
-										<th>Monday</th>
-										<td>10:00am</td>
-										<td>8:00pm</td>
-									</tr>
-									<tr>
-										<th>Tuesday</th>
-										<td>Closed</td>
-										<td>Closed</td>
-									</tr>
-									<tr>
-										<th>Wednesday</th>
-										<td>10:00am</td>
-										<td>8:00pm</td>
-									</tr>
-									<tr>
-										<th>Thursday</th>
-										<td>10:00am</td>
-										<td>10:00pm</td>
-									</tr>
-									<tr>
-										<th>Friday</th>
-										<td>10:00am</td>
-										<td>12:00am</td>
-									</tr>
-									<tr>
-										<th>Saturday</th>
-										<td>10:00am</td>
-										<td>12:00pm</td>
-									</tr>
-									<tr>
-										<th>Sunday</th>
-										<td>10:00am</td>
-										<td>11:00pm</td>
-									</tr>
-									</table>
+						<section>
+							<table>
+								<caption>Business Hours</caption>
+								<tr>
+									<th>Monday</th>
+									<td>10:00am</td>
+									<td>8:00pm</td>
+								</tr>
+								<tr>
+									<th>Tuesday</th>
+									<td>Closed</td>
+									<td>Closed</td>
+								</tr>
+								<tr>
+									<th>Wednesday</th>
+									<td>10:00am</td>
+									<td>8:00pm</td>
+								</tr>
+								<tr>
+									<th>Thursday</th>
+									<td>10:00am</td>
+									<td>10:00pm</td>
+								</tr>
+								<tr>
+									<th>Friday</th>
+									<td>10:00am</td>
+									<td>12:00am</td>
+								</tr>
+								<tr>
+									<th>Saturday</th>
+									<td>10:00am</td>
+									<td>12:00pm</td>
+								</tr>
+								<tr>
+									<th>Sunday</th>
+									<td>10:00am</td>
+									<td>11:00pm</td>
+								</tr>
+							</table>
 						</section>
 
 					</div>
@@ -114,7 +126,7 @@
 			</div>
 		</div>
 		<!-- Copyright and bottom nav -->
-			<%- include('../partials/footer')%>
+		<%- include('../partials/footer')%>
 
 </body>
 
