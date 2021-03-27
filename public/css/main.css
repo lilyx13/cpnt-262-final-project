@@ -233,11 +233,10 @@ ul.style1 img {
 
 #banner {
 	position: relative;
-	background: #333 url(../images/banner.jpg) no-repeat center;
+	background: rgb(187, 31, 31) url(../images/images-temp-2/banner.jpg) no-repeat center;
 	background-size: cover;
 }
 
-.homepage #banner {}
 
 /*********************************************************************************/
 /* Main                                                                          */
