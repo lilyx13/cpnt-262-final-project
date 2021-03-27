@@ -23,13 +23,20 @@ router.get('/shop', (req, res) => {
   res.render('pages/shop')
 })
 
-// 404
-router.get('/404', (req, res) => {
-  res.render('pages/404')
+// Admin page
+router.get('/admin', (req, res) => {
+  res.render('pages/admin')
 })
 
 // contact
 router.get('/contact', (req, res) => {
   res.render('pages/contact')
 })
+
+// 404
+router.get('/404', (req, res) => {
+  res.render('pages/404')
+})
+
+
 module.exports = router
