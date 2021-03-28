@@ -276,7 +276,8 @@ h1.heybud {
 	grid-gap: 5px;
 	padding-bottom: 3rem;
 	padding-top: 3rem;
-	justify-self: center;
+	align-items: center;
+	justify-items: center;
 
 }
 
@@ -285,6 +286,12 @@ h1.heybud {
 	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
 	grid-gap: 5px;
 	padding-top: 3rem;
+	align-items: center;
+	justify-items: center;
+}
+
+.tips4safety {
+	font-size: 1.2rem;
 }
 
 #marketing {
