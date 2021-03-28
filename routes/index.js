@@ -1,8 +1,27 @@
 const express = require('express')
+const formCollection = require('./form')
+const surveyData = require('../models/form')
 const config = require('../config')
 
 const router = express.Router()
 
+// form middleware
+router.use('/contact', formCollection)
+
+// router Post (Probably move this the apiForm)
+router.post('/contact', async (req, res, next) => {
+  try {
+    const surveyItem = new surveyData(req.body)
+    surveyItem.save((err, data) => {
+      if (err) {
+        res.send(`<p>Problem Creating survey entry</p>`)
+      }
+      res.send(`<p>Created survey entry</p>`)
+    })
+  } catch (err) {
+    res.sendStatus(404)
+  }
+})
 router.use((req, res, next) => {
   res.locals = config
   next()
