@@ -4,28 +4,37 @@ const surveyData = require('../models/form')
 const config = require('../config')
 
 const router = express.Router()
+router.use((req, res, next) => {
+  res.locals = config
+  next();
+})
 
 // form middleware
 router.use('/contact', formCollection)
 
+//Here we are configuring express to use body-parser as middle-ware.
+router.use(express.urlencoded({ extended: true }))
+
+//router.get('/', (req, res) => {
+//res.redirect('/contact')
+//})
+
 // router Post (Probably move this the apiForm)
-router.post('/contact', async (req, res, next) => {
+router.post('/contact', async (req, res) => {
   try {
     const surveyItem = new surveyData(req.body)
     surveyItem.save((err, data) => {
       if (err) {
-        res.send(`<p>Problem Creating survey entry</p>`)
+        res.send(`<p>Problem Creating survey entry${req.body.name}</p>`)
       }
       res.send(`<p>Created survey entry</p>`)
     })
   } catch (err) {
     res.sendStatus(404)
+
   }
 })
-router.use((req, res, next) => {
-  res.locals = config
-  next()
-})
+
 
 // home page
 router.get('/', (req, res) => {
