@@ -1,7 +1,4 @@
-const mongoose = require('mongoose')
-
-// schema
-const formSchema = mongoose.Schema({
+const formCollection = [{
   name: String,
   email: String,
   age: Number,
@@ -19,6 +16,6 @@ const formSchema = mongoose.Schema({
   often: Boolean,
   casually: Boolean,
   rarely: Boolean
-})
+}]
 
-module.exports = mongoose.model('Form', formSchema)
+module.exports = formCollection
