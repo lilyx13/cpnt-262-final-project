@@ -351,6 +351,10 @@ h1.heybud {
 	justify-items: center;
 }
 
+.human-1-text {
+	padding-right: 2rem;
+}
+
 .human-2 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
@@ -360,6 +364,10 @@ h1.heybud {
 	justify-items: center;
 }
 
+.human-2-text {
+	padding-left: 2rem;
+}
+
 .human-3 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
@@ -367,4 +375,21 @@ h1.heybud {
 	padding-top: 3rem;
 	align-items: center;
 	justify-items: center;
+}
+
+.human-3-text {
+	padding-right: 2rem;
+}
+
+.about-bottom {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	grid-gap: 5px;
+	padding-top: 3rem;
+	align-items: center;
+	justify-items: center;
+}
+
+.about-bottom-text {
+	padding-left: 2rem;
 }

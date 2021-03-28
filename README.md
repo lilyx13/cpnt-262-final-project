@@ -81,5 +81,8 @@ Code Busters Team Project
 
 - [drinking oil](https://unsplash.com/photos/Mnn6zAVyk9U) image belongs to https://unsplash.com/@zanetb
 
-- []() image belongs to 
+- [Ricky Bobby](https://unsplash.com/photos/OhKElOkQ3RE) image belongs to https://unsplash.com/@brokenlenscap
 
+- [John Doe](https://unsplash.com/photos/HfFSE4-zCPM) image belongs to https://unsplash.com/@andrewroy
+
+-[Virginia](https://unsplash.com/photos/PaqF5u-qfCs) image belongs to https://unsplash.com/@annewarren
