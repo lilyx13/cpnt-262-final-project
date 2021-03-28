@@ -6,7 +6,6 @@
   "description": "Code Busters Team Project",
   "version": "1.0.0",
   "main": "config.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ashlyn-knox/cpnt-262-final-project.git"
