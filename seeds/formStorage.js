@@ -3,19 +3,19 @@ const formCollection = [{
   email: 'zobidobido@suka.ca',
   age: 42,
   // first fieldset
-  joints: 1,
-  vaping: Boolean,
-  bongs: Boolean,
-  pipes: Boolean,
-  eadibles: Boolean,
-  beverages: Boolean,
-  drops: Boolean,
-  spray: Boolean,
+  joints: 0,
+  vaping: 1,
+  bongs: 1,
+  pipes: 1,
+  eadibles: 0,
+  beverages: 1,
+  drops: 1,
+  spray: 1,
   // second fieldset
-  daily: Boolean,
-  often: Boolean,
-  casually: Boolean,
-  rarely: Boolean
+  daily: 1,
+  often: 1,
+  casually: 1,
+  rarely: 1
 }]
 
 module.exports = formCollection

@@ -14,11 +14,11 @@ const formSchema = mongoose.Schema({
   beverages: Boolean,
   drops: Boolean,
   spray: Boolean,
-  // second fieldset
+  //// second fieldset
   daily: Boolean,
   often: Boolean,
   casually: Boolean,
-  rarely: Boolean
+  rarely: Boolean,
 })
 
 module.exports = mongoose.model('Form', formSchema)

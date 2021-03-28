@@ -1,21 +1,13 @@
-require('dotenv').config();
-const mongoose = require('mongoose');
+const mongoose = require('./_connection');
+
 // import seed
-const gallery = require('./seeds/gallery');
-const storage = require('./seeds/formStorage');
+const dbseed = require('./seeds/formStorage');
 
 // model
-const form = require('./models/form');
-const image = require('./models/image');
-const formCollection = require('./seeds/formStorage');
-
-mongoose.connect(process.env.MONGODB_URL, {
-  useUnifiedTopology: true,
-  useNewUrlParser: true,
-});
+const formStorage = require('./models/form');
 
 
-storage.insertMany(formCollection, function (error, form) {
+formStorage.insertMany(dbseed, (error, form) => {
   if (error) {
     console.log(error)
   }
