@@ -12,12 +12,7 @@ router.use((req, res, next) => {
 // form middleware
 router.use('/contact', formCollection)
 
-//Here we are configuring express to use body-parser as middle-ware.
 router.use(express.urlencoded({ extended: true }))
-
-//router.get('/', (req, res) => {
-//res.redirect('/contact')
-//})
 
 // router Post (Probably move this the apiForm)
 router.post('/contact', async (req, res) => {
@@ -65,6 +60,5 @@ router.get('/contact', (req, res) => {
 router.get('/404', (req, res) => {
   res.render('pages/404')
 })
-
 
 module.exports = router
