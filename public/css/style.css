@@ -4,7 +4,11 @@
 :root {
 
 	/* Colors*/
-	--black: hsl() --green: hsl() --purple: hsl() --white: hsl() --grey: hsl()
+	--black: hsl();
+	--green: hsl();
+	--purple: hsl();
+	--white: hsl();
+	--grey: hsl();
 		/* Interaction */
 		--interaction-curve: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 10);
 
@@ -13,6 +17,7 @@
 	--hover-shadow: 0 14px 25px hsla(209, 10%, 12%, 0.24), 0 10px 10px hsla(209, 10%, 12%, 0.24);
 	--active-shadow: 0 14px 25px hsla(209, 20%, 28%, 0.24), 0 10px 10px hsla(0, 2%, 28%, 0.24);
 }
+
 
 /*
 	Autonomy by TEMPLATED
@@ -28,7 +33,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	background: #89967b;
-	font-family: 'Raleway', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
 	color: #000000;
 }
 
@@ -264,6 +269,8 @@ h1.heybud {
 	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
 	grid-gap: 5px;
 
+	padding: 5rem;
+	margin: 2rem;
 }
 
 /*********************************************************************************/
@@ -295,7 +302,8 @@ h1.heybud {
 
 #marketing {
 
-	padding: 6em 0em;
+	padding: 5em;
+	margin: 2rem;
 	background: #ffffff;
 	color: #110704;
 }
@@ -310,7 +318,7 @@ h1.heybud {
 
 .footer-nav {
 	position: relative;
-	padding: 0;
+	padding: 2rem;
 	text-align: center;
 	color: #050100;
 	font-size: 14px;

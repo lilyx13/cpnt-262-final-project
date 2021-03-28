@@ -1,9 +1,9 @@
 /* Font Type */
-h1,
-.companyBrand {
+.company-brand {
   font-family: "Hachi Maru Pop", sans-serif;
+  font-size: clamp(2.4rem, 5vw, 3.2rem);
 }
-
+h1,
 h2,
 h3,
 h4,
