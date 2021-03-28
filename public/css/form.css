@@ -1,0 +1,36 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.research-form {
+  margin: 2rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.research-form > * {
+  padding: 10px;
+  margin: 10px;
+}
+.research-form legend {
+  font-weight: 600;
+}
+.research-form > .input-button {
+  max-width: 30rem;
+  min-width: 10rem;
+  align-self: center;
+}
+.form-fields {
+  margin: 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /*align-self: center;*/
+}
+
