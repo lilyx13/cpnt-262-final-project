@@ -317,19 +317,44 @@ h1.heybud {
 	font-size: 14px;
 }
 
+.footer-2 {
+	color: rgba(63, 85, 48, 0.534)
+}
+
 .word-nav {
 
 	justify-content: center;
 	align-content: space-between;
-
 }
 
 .socials {
 	font-size: 1.8rem;
 	display: inline-block;
+
 }
 
 #copyright a {
 	text-decoration: none;
-	color: #000000 !important;
+}
+
+/*********************************************************************************/
+/* About-us                                                                    */
+/*********************************************************************************/
+
+.human-1 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	grid-gap: 5px;
+	padding-top: 3rem;
+	align-items: center;
+	justify-items: center;
+}
+
+.human-2 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	grid-gap: 5px;
+	padding-top: 3rem;
+	align-items: center;
+	justify-items: center;
 }
