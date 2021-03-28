@@ -27,7 +27,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background: #cecba0;
+	background: #7b9c54;
 	font-family: 'Raleway', sans-serif;
 	color: #000000;
 }
@@ -63,12 +63,10 @@ strong {
 }
 
 a {
-	color: #A2A2A2;
+	color: #000000;
 }
 
-a:hover {
-	text-decoration: none;
-}
+
 
 /* Images */
 
@@ -223,9 +221,7 @@ ul.style1 img {
 	color: #FFF;
 }
 
-#nav>ul>li>ul {
-	display: none;
-}
+
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -290,23 +286,20 @@ h1.heybud {
 /* Copyright                                                                     */
 /*********************************************************************************/
 
-#copyright {
+.footer-nav {
 	position: relative;
-	padding: 3em 0em;
+	padding: 0;
 	text-align: center;
-	color: #362f2d;
+	color: #050100;
+	font-size: 14px;
 }
 
-#copyright .container {}
+.socials {
+	font-size: 1.8rem;
+	display: inline-block;
+}
 
 #copyright a {
 	text-decoration: none;
-	color: #df4511 !important;
+	color: #000000 !important;
 }
-
-.info-container {
-	display: grid;
-
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
