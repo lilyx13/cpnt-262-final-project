@@ -25,7 +25,7 @@ router.post('/contact', async (req, res) => {
     const surveyItem = new surveyData(req.body)
     surveyItem.save((err, data) => {
       if (err) {
-        res.send(`<p>Problem Creating survey entry${req.body.name}</p>`)
+        res.send(`<p>Problem Creating survey entry${req.body.name}, ${req.body.email}, ${req.body.joints}</p>`)
       }
       res.send(`<p>Created survey entry</p>`)
     })
