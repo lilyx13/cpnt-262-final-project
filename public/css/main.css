@@ -358,3 +358,12 @@ h1.heybud {
 	align-items: center;
 	justify-items: center;
 }
+
+.human-3 {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+	grid-gap: 5px;
+	padding-top: 3rem;
+	align-items: center;
+	justify-items: center;
+}
