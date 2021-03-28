@@ -10,7 +10,7 @@ mongoose.connect(
   })
   // ** Error Returned if no connection **
   .catch((err) => {
-    console.log(err)
+    console.log(`${err} Internal Server Error `)
   })
 
 module.exports = mongoose;
