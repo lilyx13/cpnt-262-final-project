@@ -23,10 +23,10 @@ router.post('/contact', async (req, res) => {
         res.send(`<p>Problem Creating survey entry ${req.body}</p>`)
       }
       res.send(`<p>Created survey entry</p>`)
+      console.log(req.body)
     })
   } catch (err) {
     res.sendStatus(404)
-
   }
 })
 
