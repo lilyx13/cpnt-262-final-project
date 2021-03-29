@@ -1,5 +1,5 @@
 const express = require('express')
-const formCollection = require('./form')
+const formCollection = require('./api/v0')
 const surveyData = require('../models/form')
 const config = require('../config')
 
@@ -15,20 +15,20 @@ router.use('/contact', formCollection)
 router.use(express.urlencoded({ extended: true }))
 
 // router Post (Probably move this the apiForm)
-router.post('/contact', async (req, res) => {
-  try {
-    const surveyItem = new surveyData(req.body)
-    surveyItem.save((err, data) => {
-      if (err) {
-        res.send(`<p>Problem Creating survey entry${req.body.name}, ${req.body.email}, ${req.body.joints}</p>`)
-      }
-      res.send(`<p>Created survey entry</p>`)
-    })
-  } catch (err) {
-    res.sendStatus(404)
+//router.post('/contact', async (req, res) => {
+  //try {
+    //const surveyItem = new surveyData(req.body)
+    //surveyItem.save((err, data) => {
+      //if (err) {
+        //res.send(`<p>Problem Creating survey entry${req.body.name}, ${req.body.email}, ${req.body.joints}</p>`)
+      //}
+      //res.send(`<p>Created survey entry</p>`)
+    //})
+  //} catch (err) {
+    //res.sendStatus(404)
 
-  }
-})
+  //}
+//})
 
 
 // home page
