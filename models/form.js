@@ -15,10 +15,10 @@ const formSchema = mongoose.Schema({
   drops: Boolean,
   spray: Boolean,
   //// second fieldset
-  useFrequency: String,
-  sativa: Boolean,
-  indica: Boolean,
-  hybrid: Boolean
-  })
+  daily: Boolean,
+  often: Boolean,
+  casually: Boolean,
+  rarely: Boolean,
+})
 
 module.exports = mongoose.model('Form', formSchema)
