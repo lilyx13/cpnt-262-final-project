@@ -9,6 +9,8 @@ Code Busters Team Project
 - Our fancy feauture is a post request from a form to the database. It is set to have a feedback type of style to let the company know about the pros/cons/and favourites.
 - Our database of choice is atlas.
 
+## Issues
+- 
 
 ## Goals and Realities
 - We had initial goals to create a e-commerce website with a simple calculator function to add and subtract from the 'cart'. We also wanted a form to use the POST and GET request as a feedback to the database for future pros and cons of the company.
