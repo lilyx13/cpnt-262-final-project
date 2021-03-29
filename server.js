@@ -1,6 +1,11 @@
-const express = require('express')
 const path = require('path')
+<<<<<<< HEAD
 //const mongoose = require('./_connection')
+=======
+const mongoose = require('./_connection')
+const dotenv = require('dotenv').config()
+const express = require('express')
+>>>>>>> 767625a02486b1eb672c7ef0eba63541bde729da
 const formModel = require('./models/form')
 const routes = require('./routes')
 
