@@ -4,15 +4,38 @@ Code Busters Team Project
 - [Joseph Butcher](https://github.com/JoeButchxxx)
 - [Ashlyn Knox](https://github.com/ashlyn-knox)
 - isha
-# Attributions
+
+## Fancy Feauture
+- Our fancy feauture is a post request from a form to the database. It is set to have a feedback type of style to let the company know about the pros/cons/and favourites.
+- Our database of choice is atlas.
+
+
+## Goals and Realities
+- We had initial goals to create a e-commerce website with a simple calculator function to add and subtract from the 'cart'. We also wanted a form to use the POST and GET request as a feedback to the database for future pros and cons of the company.
+- As time crunched we decided to drop the e-commerce gallery and focus our time on a form that sent infomation to the database and also printed answers to a page.
+
+
+
+## Pro's & Cons Of Using A Template
+### Pros
+- Great design from the start.
+- Easy to start a project without having to build all the structure and css.
+- It can be a huge time saver in the right situation.
+- Budget friendly.
+
+### Cons
+- CSS can be very messy and unresponsive.
+- Depending how the code is structured there can be alot of over riding issues when implementing your own code & design into a template.
+- VERY poor code quality.
+- Depending on which template you are using they dont work on all browsers.
+
 
 ## CSS Notes
 - skel-noscript.css grid layout / Container / Macro Structure
-- style-1000px.css 
+- style-1000px.css
 
-## EJS Notes
-- Only Copyright information currently in the footer.ejs
-- TODO: Brown Section above footer needs to be... addressed. Ugly and probs needs to be destroyed or changed. - Figure out JS situation before doing anything crazy
+
+
 
 
 
