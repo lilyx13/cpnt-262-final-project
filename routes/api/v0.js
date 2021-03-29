@@ -4,7 +4,7 @@ const Form = require('../../models/form')
 
 const router = express.Router()
 
-router.get('/api/v0/Form', async (req, res) => {
+router.get('/v0/form', async (req, res) => {
   try {
     const formCollection = await Form.find({})
     res.json(formCollection)
