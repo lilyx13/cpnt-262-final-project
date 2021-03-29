@@ -4,32 +4,31 @@ const surveyData = require('../models/form')
 const config = require('../config')
 
 const router = express.Router()
+
+router.use(express.urlencoded({ extended: true }))
+
 router.use((req, res, next) => {
   res.locals = config
   next();
 })
 
 // form middleware
-router.use('/contact', formCollection)
+router.use('/api', formCollection)
 
-router.use(express.urlencoded({ extended: true }))
+router.post('/contact', async (req, res) => {
+  try {
+    const surveyItem = new surveyData(req.body)
+    surveyItem.save((err, data) => {
+      if (err) {
+        res.send(`<p>Problem Creating survey entry ${req.body}</p>`)
+      }
+      res.send(`<p>Created survey entry</p>`)
+    })
+  } catch (err) {
+    res.sendStatus(404)
 
-// router Post (Probably move this the apiForm)
-//router.post('/contact', async (req, res) => {
-  //try {
-    //const surveyItem = new surveyData(req.body)
-    //surveyItem.save((err, data) => {
-      //if (err) {
-        //res.send(`<p>Problem Creating survey entry${req.body.name}, ${req.body.email}, ${req.body.joints}</p>`)
-      //}
-      //res.send(`<p>Created survey entry</p>`)
-    //})
-  //} catch (err) {
-    //res.sendStatus(404)
-
-  //}
-//})
-
+  }
+})
 
 // home page
 router.get('/', (req, res) => {
