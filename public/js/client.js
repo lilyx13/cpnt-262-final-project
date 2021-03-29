@@ -1,26 +1,6 @@
-// Endpoint
-const endpoint = '/api/v0/gallery';
-// Fetch
-fetch(endpoint)
-  // Error Handling
-  .then((res) => {
-    if (!res.ok) {
-      throw new Error(`${res.status}`);
-    }
-    return res.json();
-  });
-// Gallery Loading
-  .then((gallery) => {
-    // Gallery Content Here
-  });
-// Catch
-  .catch ((err) => {
-  console.log(err);
-});
-
 // *** form admin creation *** //
 // This prints survey data to admin page
-const formEndpoint = '/api/v0/formStorage';
+const formEndpoint = 'https://heybud-cpnt262-final.herokuapp.com/api/v0/form';
 // recreate as async await function
 fetch(formEndpoint)
   .then((res) => {
@@ -28,12 +8,12 @@ fetch(formEndpoint)
       throw new Error (`Not OK ${res.status}`);
     }
     return res.json();
-  });
-  .then((formContent) => {
+  })
+  .then((formEndpoint) => {
     // create output variable
     let output = `<table>`;
     // loop through definitions
-    formContent.forEach((survey) =>{
+    formEndpoint.forEach((survey) => {
       // print form content in html
       output += ` <caption>Survey Data</caption><tr><th>Name</th><td>${survey.name}</td><th></tr>`;
       output += `<tr><th>Age</th><td>${survey.age}</td><th></tr>`;
@@ -49,10 +29,11 @@ fetch(formEndpoint)
       output += `<tr><th>Often</th><td>${survey.often}</td><th></tr>`;
       output += `<tr><th>Casually</th><td>${survey.casually}</td><th></tr>`;
       output += `<tr><th>Rarely</th><td>${survey.rarely}</td><th></tr>`;
+ output += `</table>`
+
     });
-    output += `</table>`
     document.getElementByClassName('admin-form-view').innerHTML = output;
-  });
+  })
   .catch((err) => {
     console.log(err);
   });

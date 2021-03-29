@@ -3,20 +3,18 @@ Code Busters Team Project
 # Members
 - [Joseph Butcher](https://github.com/JoeButchxxx)
 - [Ashlyn Knox](https://github.com/ashlyn-knox)
-- isha
+- [Isha Simran[](https://github.com/IshaSimran)
 
 ## Fancy Feauture
 - Our fancy feauture is a post request from a form to the database. It is set to have a feedback type of style to let the company know about the pros/cons/and favourites.
 - Our database of choice is atlas.
-
 ## Issues
-- 
+- The original fancy feature plan was to give a randomly selected prize to everyone that submitted the survey. However due to limited resources time focused on debugging our form function, this will have to be a feature added later.
+- On our form, we had to debug managing different types of input. in our case, checkboxes are set to booleans which required a 1 for true. At this time only selected values are send to the server. A later step would be to potentially document unselected variables. However for survery work, this approach saves on memory usage and still allows for statistical analysis due to the binary nature of the questions.
 
 ## Goals and Realities
 - We had initial goals to create a e-commerce website with a simple calculator function to add and subtract from the 'cart'. We also wanted a form to use the POST and GET request as a feedback to the database for future pros and cons of the company.
 - As time crunched we decided to drop the e-commerce gallery and focus our time on a form that sent infomation to the database and also printed answers to a page.
-
-
 
 ## Pro's & Cons Of Using A Template
 ### Pros
@@ -36,11 +34,14 @@ Code Busters Team Project
 - skel-noscript.css grid layout / Container / Macro Structure
 - style-1000px.css
 
+### Attributions
+Various Attributions for content here
 
-
-
-
-
+### Personal Attributions
+* Isha Simran (Link above) designed the logo for heyBUD, She also contributed many of the images and worked on editing them
+* []Vitaly Gins](https://github.com/gvitaly87) for debugging support on making our post function work
+### Licensing
+* [Autonomy Template] from [https://templated.co/] under a  [creative commons license](http://creativecommons.org/licenses/by/3.0/)
 
 ## Images
 
